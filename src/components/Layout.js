@@ -1,7 +1,7 @@
 import { AppBar, Button, Container, Toolbar, Typography } from '@mui/material'
 import React from 'react'
 import { Outlet, useNavigate } from 'react-router'
-import useStateContext from '../hooks/usesStateContext'
+import useStateContext from '../hooks/useStateContext'
 
 export default function Layout() {
     const { resetContext } = useStateContext()

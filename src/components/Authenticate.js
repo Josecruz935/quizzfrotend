@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navigate, Outlet } from 'react-router'
-import useStateContext from '../hooks/usesStateContext'
+import useStateContext from '../hooks/useStateContext'
 
 export default function Authenticate() {
     const { context } = useStateContext()

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router';
 import { createAPIEndpoint, ENDPOINTS } from '../api'
 import { getFormatedTime } from '../helper';
-import useStateContext from '../hooks/usesStateContext'
+import useStateContext from '../hooks/useStateContext'
 import { green } from '@mui/material/colors';
 import Answer from './Answer';
 
